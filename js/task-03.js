@@ -20,7 +20,7 @@ function createMarkupImages(arr) {
     .map(
       ({ url, alt }) => `<li><img src="${url}" alt="${alt}" width="750"></li>`
     )
-    .reduce((acc, el) => (acc += el), '');
+    .reduce((acc, el) => (acc += el));
 }
 
 imageList.insertAdjacentHTML('afterbegin', createMarkupImages(images));

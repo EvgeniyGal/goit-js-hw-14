@@ -1,5 +1,4 @@
 const input = document.querySelector('#validation-input');
-const dataLrngth = input.length;
 
 const checkInput = e => {
   const str = e.currentTarget.value;
